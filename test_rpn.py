@@ -17,4 +17,4 @@ class TestBasics(unittest.TestCase):
         self.assertEqual(2, result)
     def test_exponent(this):
         result = rpn.calculate("3 3 ^")
-        self.assertEqual(27, result)
+        this.assertEqual(27, result)
